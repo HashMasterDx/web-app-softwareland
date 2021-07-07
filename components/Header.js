@@ -31,21 +31,21 @@ const Header = () => {
     <div className={`header${sticky ? ' sticky' : ''}`}>
       <Navbar light expand="md">
         <Container>
-          <NavbarBrand href="/">LOGO</NavbarBrand>
+          <NavbarBrand href="/">Mueblería Hernández</NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="m-auto" navbar>
               <NavItem>
-                <NavLink href="/">Home</NavLink>
+                <NavLink href="/">Inicio</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#feature">Features</NavLink>
+                <NavLink href="#feature">Conócenos</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#service">Services</NavLink>
+                <NavLink href="#service">Productos</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#about">About</NavLink>
+                <NavLink href="#about">Nosotros</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

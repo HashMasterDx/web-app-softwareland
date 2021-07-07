@@ -19,7 +19,7 @@ const FeatureBox = (props) => {
                 </div>
                 <h5 className="text-dark font-weight-normal mb-3 pt-3">{feature.title}</h5>
                 <p className="text-muted mb-3 f-15">{feature.desc}</p>
-                <a href={feature.link} className="f-16 text-warning">Read More <span className="right-icon ml-2">&#8594;</span></a>
+                <a href={feature.link} className="f-16 text-warning">Ver más <span className="right-icon ml-2">&#8594;</span></a>
               </div>
             </Col>
         </Row>
@@ -32,7 +32,7 @@ const FeatureBox = (props) => {
             </div>
             <h5 className="text-dark font-weight-normal mb-3 pt-3">{feature.title}</h5>
             <p className="text-muted mb-3 f-15">{feature.desc}</p>
-            <a href={feature.link} className="f-16 text-warning">Read More <span className="right-icon ml-2">&#8594;</span></a>
+            <a href={feature.link} className="f-16 text-warning">Ver más <span className="right-icon ml-2">&#8594;</span></a>
           </div>
         </Col>
         <Col md={{size:5, offset:1}} className="mt-5 mt-sm-0">
@@ -48,9 +48,9 @@ const FeatureBox = (props) => {
 }
 const Feature = () => {
 const features = [
-    {id : 1, img : "./images/45.png", title : "LOREM IPSUM", desc : "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", link : "/"},
-    {id : 2, img : "./images/Group Members.png", title : "LOREM IPSUM", desc : "Sed perspiciatis unde omnis natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo excepturi sint occaecati cupiditate architecto.", link : "/"},
-    {id : 3, img : "./images/45.png", title : "LOREM IPSUM", desc : "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.", link : "/"},
+    {id : 1, img : "https://images.homify.com/c_fill,f_auto,q_0,w_740/v1456737593/p/photo/image/1366586/c25904aa-4dc0-4692-95bf-c493f6b1c763.jpg", title : "Mesas Rusticas", desc : "Fabricamos tus mesas rusticas para tu hogar.", link : "/"},
+    {id : 2, img : "http://myoc.es/blog/wp-content/uploads/2017/03/MG_1858-copia.jpg", title : "Estanterías Rusticas", desc : "Fabricamos tus estanterías rusticas para tu hogar.", link : "/"},
+    {id : 3, img : "https://static.vix.com/es/sites/default/files/styles/4x3/public/imj/hogartotal/M/Muebles-rusticos-de-madera-10.jpg", title : "Recamaras Rusticas", desc : "Fabricamos tus recamaras rusticas para tu hogar.", link : "/"},
   ];
 return (
     <section className="section" id="feature">
@@ -58,8 +58,9 @@ return (
         <Row className="justify-content-center">
           <Col lg={6} md={8}>
             <div className="title text-center mb-5">
-              <h3 className="font-weight-normal text-dark"><span className="text-warning">Features</span></h3>
-              <p className="text-muted">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+              <h3 className="font-weight-normal text-dark"><span className="text-warning">Conócenos</span></h3>
+              <p className="text-muted">Somos una empresa dedicada a la creación y fabricación de muebles rusticos para su hogar. Contamos con distintos diseños que
+              harán que su casa luzca más espectacular de lo que luce actualmentes. También contamos con fabricación a la medida y diseño que usted nos proporcione.</p>
             </div>
           </Col>
         </Row>

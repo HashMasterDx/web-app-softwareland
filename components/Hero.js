@@ -7,17 +7,18 @@ const Hero = () => {
         <Row className="align-items-center">
           <Col lg={6}>
             <div className="pr-lg-5">
-              <p className="text-uppercase text-primary font-weight-medium f-14 mb-4">Lorem Ipsum</p>
-              <h1 className="mb-4 font-weight-normal line-height-1_4">Simply dummy text of the printing <span className="text-primary font-weight-medium">Name</span></h1>
-              <p className="text-muted mb-4 pb-2">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-              <a href="#" className="btn btn-warning">
-                Find Out How <span className="ml-2 right-icon">&#8594;</span>
+              <p className="text-uppercase text-primary font-weight-medium f-14 mb-4">Mueblería Hernández</p>
+              <h1 className="mb-4 font-weight-normal line-height-1_4">Muebles rusticos hechos a su estilo elegancia y comodidad.</h1>
+              <p className="text-muted mb-4 pb-2">Somos una empresa dedicada a la creación y fabricación de muebles rusticos para su hogar. Contamos con distintos diseños que harán que su casa
+              luzca más espectacular de lo que luce actualmentes. También contamos con fabricación a la medida y diseño que usted nos proporcione.</p>
+              <a href="#service" className="btn btn-warning">
+                Vea nuestros productos! <span className="ml-2 right-icon">&#8594;</span>
               </a>
             </div>
           </Col>
           <Col lg={6}>
             <div className="mt-5 mt-lg-0">
-              <img src="/images/Group Members.png" alt="" className="img-fluid mx-auto d-block"/>
+              <img src="http://www.lepetitchateaux.com/blog/wp-content/uploads/2018/11/muebles-r%C3%BAsticos.jpg" alt="" className="img-fluid mx-auto d-block"/>
             </div>
           </Col>
         </Row>
